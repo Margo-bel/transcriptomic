@@ -1,0 +1,3 @@
+Программы
+1. The fasterq-dump tool extracts data in FASTQ- or FASTA-format from SRA-accessions. 
+fasterq-dump SRR00000

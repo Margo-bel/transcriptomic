@@ -1,3 +1,11 @@
 Программы
 1. The fasterq-dump tool extracts data in FASTQ- or FASTA-format from SRA-accessions. 
 fasterq-dump SRR00000
+
+2. FastQC - A quality control tool for high throughput sequence data.
+FastQC/fastqc  - вызов интерфейса программы
+mkdir qc  - предварительно создаем папку для отчета
+FastQC/fastqc -o qc SRR1036346.fastq  - запуск программы, где qc - папка для отчетов, SRR... - скачанные fastq файлы
+
+3. MultiQC is a tool to create a single report with interactive plots for multiple bioinformatics analyses across many samples.
+multiqc qc  - где qc - папка с отчетами FastQC

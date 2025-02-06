@@ -9,3 +9,6 @@ FastQC/fastqc -o qc SRR1036346.fastq  - запуск программы, где 
 
 3. MultiQC is a tool to create a single report with interactive plots for multiple bioinformatics analyses across many samples.
 multiqc qc  - где qc - папка с отчетами FastQC
+
+4. NextFlow — это специальный язык, который позволяет вам запускать целые пайплайны из нескольких последовательно выполняемых программ
+nextflow run my_pipeline.nf --SRA SRR3900953  - скрипт.nf --имя переменной значение переменной
